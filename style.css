@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3e3c3c;
+    padding: 1rem
+}
+
+header h2 {
+    color: #cf3a35;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+#inicio {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+
+    background-color: #1c1a19;
+    background-image: url(img/illustration-header-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.contenidoHome {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.5rem;
+}
+
+h1 {
+    font-family: 'Crete Round', sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+}
+
+.subtituloHome {
+    font-family: 'Roboto', Arial;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #fff5e1;
+}
+
+.descripcionHome {
+    font-family: 'Poppins', Arial;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #fff;
+}
+
+.redesSociales {
+    display: flex;
+    gap: 1rem;
+}
+
+.fa-brands {
+    color: #fff;
+    padding: 4% 0;
+    font-size: 1.4rem;
+}
+
+#proyectos {
+    height: 100vh;
+    width: 100vw;
+}
+
+#contactame {
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+/* Seccion Acerca de Mi  */
+
+#acercaDeMi {
+    
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #1c1a19;
+    padding: 0 1.5rem;
+    justify-content: center;
+    padding-bottom: 5rem; 
+}
+
+.top {
+    padding-top: 7rem;
+    background-image: url(img/illustration-about-me-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+.addSimbolo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 10px;
+    color: #ff6b00;
+    font-size: 1.5rem;
+    justify-content: center; 
+}
+.addSimbolo span {
+    width: 12px;
+    height: 12px;
+    background-color: #ff6b00;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.addSimbolo.circulo span {
+    border-radius: 50%;
+}
+
+.addSimbolo.rombo span {
+  transform: rotate(45deg); /* Rombo */
+}
+
+.addSimbolo.cuadrado {
+    height: 12px;
+}
+
+.addSimbolo.circulo span {
+  border-radius: 50%; /* Círculo */
+}
+.lenguajes h3, .frameworks h3, .skills h3{
+    text-align: center;
+    font-size: 2rem;
+    color:#fff;
+}
+.hr{
+    margin-bottom: 3rem;
+}
+
+
+.lenguajes p, .frameworks p, .skills p{
+    text-align: center;
+    
+    color:#ffffffe3;
+    padding-top: 1.5rem;
+    font-family: 'roboto', sans-serif;
+
+}
+
+h3{
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    letter-spacing: 0.37px;
+}
+.botonn {
+    
+    margin-top: 1.5rem;
+    background-color: #ff6b00;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-family: 'Poppins', Arial;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 12rem;
+
+}
+
+.top h2 {
+
+    font-family: 'Crete Round', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-weight: 400;
+    font-size: 4.5rem;
+    line-height: 88px;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+    cursor: pointer;
+}
+
+.top p {
+    font-family: 'Inter', Arial;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #f4f5f7;
+}
+
